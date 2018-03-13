@@ -1,0 +1,11 @@
+{
+    "ApiBase": "https://app.dusit.com/",
+    "TmtURL":"https://www.takemetour.com/dusit",
+    "CacheName":"cache-prod",
+    "OneSignalAppId":"07687cc7-2b98-4064-b8a0-54836a2dbdd7",
+    "ShowSampleLogins":"0",
+    "ShowDusitGold":"1",
+    "DoubleClick":"1",
+    "Facebook":"1"
+}
+
