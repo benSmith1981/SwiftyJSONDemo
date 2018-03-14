@@ -10,7 +10,9 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate,UITableViewDataSource {
     @IBOutlet weak var tableView: UITableView!
+    
     var offers: [Offer] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.tableView.register(R.nib.offerTableViewCell)

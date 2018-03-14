@@ -199,22 +199,20 @@
 		90FCA52F205301250037C7B0 /* SwiftyJSONDemo */ = {
 			isa = PBXGroup;
 			children = (
-				90FCA591205813DF0037C7B0 /* R.generated.swift */,
+				90FCA59520581E060037C7B0 /* Data Layer */,
 				90FCA57120580DE80037C7B0 /* Config-dev */,
 				90FCA57020580DDC0037C7B0 /* Config-prod */,
 				90FCA530205301250037C7B0 /* AppDelegate.swift */,
 				90FCA532205301250037C7B0 /* ViewController.swift */,
+				90FCA56C20580A7C0037C7B0 /* OfferTableViewCell.swift */,
+				90FCA56D20580A7C0037C7B0 /* OfferTableViewCell.xib */,
 				90FCA534205301250037C7B0 /* Main.storyboard */,
 				90FCA537205301250037C7B0 /* Assets.xcassets */,
 				90FCA539205301250037C7B0 /* LaunchScreen.storyboard */,
 				90FCA53C205301250037C7B0 /* Info.plist */,
-				90FCA55E205302870037C7B0 /* APIManager.swift */,
-				90FCA56A2058050E0037C7B0 /* Offer.swift */,
-				90FCA560205305E40037C7B0 /* Config.swift */,
-				90FCA56C20580A7C0037C7B0 /* OfferTableViewCell.swift */,
-				90FCA56D20580A7C0037C7B0 /* OfferTableViewCell.xib */,
 				90FCA563205309FE0037C7B0 /* Info-Dev.plist */,
 				90FCA562205309FD0037C7B0 /* Info-Prod.plist */,
+				90FCA591205813DF0037C7B0 /* R.generated.swift */,
 			);
 			path = SwiftyJSONDemo;
 			sourceTree = "<group>";
@@ -251,6 +249,16 @@
 				90FCA56820541A590037C7B0 /* Config.json */,
 			);
 			path = "Config-dev";
+			sourceTree = "<group>";
+		};
+		90FCA59520581E060037C7B0 /* Data Layer */ = {
+			isa = PBXGroup;
+			children = (
+				90FCA55E205302870037C7B0 /* APIManager.swift */,
+				90FCA56A2058050E0037C7B0 /* Offer.swift */,
+				90FCA560205305E40037C7B0 /* Config.swift */,
+			);
+			path = "Data Layer";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
